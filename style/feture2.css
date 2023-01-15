@@ -45,7 +45,11 @@
 .feture2-img img {
     height: 760px;
     width: 560px;
+
 }
+
+
+
 
 .option {
     padding: 30px;
@@ -72,20 +76,23 @@
 
 /* ---------------responcive------------------ */
 @media screen and (max-width: 576px) {
-    
-    .feture2{
+
+    .feture2 {
         margin-bottom: 60px;
     }
+
     .feture2-container {
         width: 90%;
         flex-direction: column;
-        
-    } 
+
+    }
+
     .info-title {
         gap: 16px;
         width: 90%;
     }
-    .feture2-img img{
+
+    .feture2-img img {
         width: 90%;
         height: 600px;
         margin: auto;
@@ -93,11 +100,13 @@
         display: flex;
         justify-content: center;
     }
-    .title-text{
+
+    .title-text {
         font-size: 26px;
     }
-    .vl{
+
+    .vl {
         height: 60px;
     }
-    
+
 }

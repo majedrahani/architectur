@@ -35,6 +35,8 @@
     width: 200.83px;
     height: 200.83px;
     border: 1px solid #FF900E;
+    border-top: 6px solid #FF900E;
+    
     border-radius: 8px;
     margin-top: 100px;
     display: flex;
@@ -42,7 +44,22 @@
     gap: 8px;
     justify-content: center;
     align-items: center;
+    transition: background-color 1s ;
 
+}
+.facts-box:hover{
+    background-color: #eca75856;
+    
+}
+.facts-box img{
+    width: 46px;
+    height: 46px;
+
+    transition: height 1s, width 1s ;
+}
+.facts-box img:hover{
+    height: 90px;
+    width: 90px;
 }
 
 .box-title {
@@ -90,6 +107,7 @@
         grid-template-columns: repeat(2, 1fr);
         margin: auto;
         justify-content: center;
+        align-items: center;
         gap: 20px;
     }
     .facts-box{
