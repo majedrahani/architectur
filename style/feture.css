@@ -1,0 +1,93 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+/*--------feture section style */
+
+.feture {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 70px;
+}
+
+.feture-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.feture-images img {
+    width: 280px;
+    height: 280px;
+}
+
+.feture-info {}
+
+.feture-title {}
+
+.sp1 {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+
+}
+
+.sp2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.sp3 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.feture-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-top: 24px;
+}
+
+
+/* ------------------responcive------------------ */
+@media screen and (max-width: 576px) {
+ 
+    .feture{
+        width: 80%;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .feture-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feture-info {
+        align-items: center;
+        margin-bottom: 50px;
+        
+    }
+    .feture-title {
+        text-align: center;
+    }
+    .feture-description {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+    #second{
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin: auto;
+    }
+
+    
+}
