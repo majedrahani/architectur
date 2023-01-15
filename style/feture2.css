@@ -82,7 +82,7 @@
         
     } 
     .info-title {
-        gap: 5px;
+        gap: 16px;
         width: 90%;
     }
     .feture2-img img{
@@ -95,6 +95,9 @@
     }
     .title-text{
         font-size: 26px;
+    }
+    .vl{
+        height: 60px;
     }
     
 }
